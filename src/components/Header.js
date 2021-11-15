@@ -2,10 +2,6 @@ import PropTypes from 'prop-types'
 import Button from './Button'
 
 const Header = ({ title, onAdd, showAdd }) => {
-  const onClick = () => {
-    console.log('click')
-  }
-
   return (
     <div>
       <header className='header'>
